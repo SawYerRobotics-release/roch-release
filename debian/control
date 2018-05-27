@@ -1,0 +1,12 @@
+Source: ros-indigo-roch
+Section: misc
+Priority: extra
+Maintainer: Chen <gchen@soyrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/roch
+Standards-Version: 3.9.2
+
+Package: ros-indigo-roch
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-roch-bringup, ros-indigo-roch-follower, ros-indigo-roch-navigation, ros-indigo-roch-teleop
+Description: roch Project
